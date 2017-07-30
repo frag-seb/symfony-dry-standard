@@ -1,0 +1,14 @@
+# Doctrine cache Configuration
+doctrine_cache:
+    aliases:
+        doctrine.metadata_cache: array
+        doctrine.query_cache: array
+        doctrine.result_cache: array
+
+    providers:
+        array:
+            type: array
+
+        apc:
+            type: apc
+            namespace: 'demo_%kernel.environment%'
