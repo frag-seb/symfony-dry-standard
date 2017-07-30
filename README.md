@@ -1,0 +1,3 @@
+DRY Edition Symfony
+============
+
