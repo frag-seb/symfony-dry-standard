@@ -1,6 +1,6 @@
 <?php
 
-namespace AppBundle;
+namespace Application\Bundle\AppBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
